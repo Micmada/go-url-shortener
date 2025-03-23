@@ -52,10 +52,6 @@ A simple URL shortener built with Go, Gin, and GORM.
 - The server runs on **port 8080** by default.
 - The database file is **shortener.db** (SQLite).
 
-## License
-MIT License
-
----
 
 Feel free to contribute and improve this project!
 
