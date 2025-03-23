@@ -1,0 +1,8 @@
+# Go-related files
+bin/
+pkg/
+*.exe
+*.out
+
+# SQLite database
+shortener.db
