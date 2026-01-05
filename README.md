@@ -1,3 +1,17 @@
+---
+description: Simple URL shortener built with Go, Gin, and GORM
+details: >
+  Shortens URLs, redirects to original links, and supports user authentication with JWT.
+  Uses Gin for the web framework and SQLite for storage.
+technologies:
+  - go
+  - gin
+  - gorm
+  - jwt
+hostedUrl: 
+---
+
+
 # Go URL Shortener
 
 A simple URL shortener built with Go, Gin, and GORM.
