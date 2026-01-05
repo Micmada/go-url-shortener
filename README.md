@@ -4,7 +4,6 @@ details: >
   Shortens URLs, redirects to original links, and supports user authentication with JWT.
   Uses Gin for the web framework and SQLite for storage.
 technologies:
-  - go
   - gin
   - gorm
   - jwt
