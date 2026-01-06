@@ -1,12 +1,25 @@
 ---
-description: Simple URL shortener built with Go, Gin, and GORM
+description: High-performance URL shortener built with Go, Gin, and GORM with JWT authentication
 details: >
-  Shortens URLs, redirects to original links, and supports user authentication with JWT.
-  Uses Gin for the web framework and SQLite for storage.
+  A fast, lightweight URL shortening service built in Go using the Gin web
+  framework and GORM ORM for database operations. Features secure user
+  authentication with JWT tokens, bcrypt password hashing, and RESTful API
+  endpoints for URL shortening and redirection. Users can register accounts,
+  log in to receive authentication tokens, and manage shortened URLs through
+  a clean API interface. The application uses SQLite for efficient local storage,
+  supports automatic database migrations via GORM, and handles URL validation
+  and unique short code generation. Built with Go's concurrency model for high
+  performance, minimal resource usage, and fast request handling. The modular
+  architecture separates routing, authentication middleware, and database models,
+  making it easy to extend with additional features or switch to PostgreSQL or
+  MySQL for production deployments.
 technologies:
+  - go
   - gin
   - gorm
   - jwt
+  - sqlite
+  - bcrypt
 hostedUrl: 
 ---
 
